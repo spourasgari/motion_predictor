@@ -1,7 +1,7 @@
 import os
 
 # Define the input and output file names
-input_file = "/home/sina/env_prediction_project/motion_predictor/Test Sets/biwi_eth.txt"  # Replace with the actual file name
+input_file = "/home/sina/env_prediction_project/motion_predictor/ETH_datasets/x_raw_files/students003.txt" 
 output_file = os.path.splitext(input_file)[0] + ".csv"  # Same name but with .csv extension
 
 # Open the input file and read its content
